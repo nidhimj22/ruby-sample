@@ -1,3 +1,10 @@
 language: ruby
 rvm:
  - 2.2
+
+deploy:
+  provider: azure_web_apps
+  username: "t-nimkah@microsoft.com"
+  password: "Iamhuman123$"
+  site: "test-cd"
+  skip_cleanup: true
