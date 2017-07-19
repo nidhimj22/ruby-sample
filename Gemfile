@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 gem 'adal'
 gem 'rspec'
+gem 'sinatra'
+gem 'json'
 gem 'httparty'
